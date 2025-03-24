@@ -11,7 +11,7 @@ class RunfileSh < Formula
   end
 
   test do
-    assert_equal shell_output("#{bin}/run --runfile-version").chomp,
+    assert_equal shell_output("#{bin}/run --version").chomp,
       "0.0.3"
   end
 end
